@@ -1,0 +1,362 @@
+{
+  "summary": {
+    "sitesTested": 6,
+    "sitesSuccessful": 6,
+    "totalUniqueProperties": 20,
+    "highPriorityCount": 5,
+    "mediumPriorityCount": 15
+  },
+  "allProperties": [
+    {
+      "property": "document.getElementsByClassName",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Hacker News Comments"
+      ]
+    },
+    {
+      "property": "document.getElementsByClassName(rank)",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Hacker News Comments"
+      ]
+    },
+    {
+      "property": "HTMLCollection[0]",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Hacker News Comments"
+      ]
+    },
+    {
+      "property": "document.addEventListener",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Hacker News Comments"
+      ]
+    },
+    {
+      "property": "document.addEventListener(click)",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Hacker News Comments"
+      ]
+    },
+    {
+      "property": "window.TYPED_ARRAY_SUPPORT",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.Uint8Array",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.localStorage",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "Storage.noDeprecation",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.dashjs",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.dashjs.MediaPlayer [SET]",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.dashjs.FactoryMaker [SET]",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "window.dashjs.Version [SET]",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "location.host",
+      "frequency": 1,
+      "sites": [
+        "Reddit (old)"
+      ]
+    },
+    {
+      "property": "document.cookie",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.documentElement",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.documentElement.className [SET]",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.RLQ",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.RLQ.push",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.performance",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    }
+  ],
+  "highPriority": [
+    "document.getElementsByClassName",
+    "document.getElementsByClassName(rank)",
+    "HTMLCollection[0]",
+    "document.addEventListener",
+    "document.addEventListener(click)"
+  ],
+  "mediumPriority": [
+    "window.TYPED_ARRAY_SUPPORT",
+    "window.Uint8Array",
+    "window.localStorage",
+    "Storage.noDeprecation",
+    "window.dashjs",
+    "window.dashjs.MediaPlayer [SET]",
+    "window.dashjs.FactoryMaker [SET]",
+    "window.dashjs.Version [SET]",
+    "location.host",
+    "document.cookie",
+    "document.documentElement",
+    "document.documentElement.className [SET]",
+    "window.RLQ",
+    "window.RLQ.push",
+    "window.performance"
+  ],
+  "siteResults": [
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 34399,
+      "scriptsFound": 1,
+      "scriptsExecuted": 1,
+      "scriptsFailed": 0,
+      "propertiesAccessed": [
+        "document.getElementsByClassName",
+        "document.getElementsByClassName(rank)",
+        "HTMLCollection[0]",
+        "document.addEventListener",
+        "document.addEventListener(click)"
+      ],
+      "errors": [],
+      "executionTime": 738
+    },
+    {
+      "name": "Lobsters",
+      "url": "https://lobste.rs",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 59452,
+      "scriptsFound": 1,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 1,
+      "propertiesAccessed": [],
+      "errors": [
+        "inline #0: expecting ';'"
+      ],
+      "executionTime": 612
+    },
+    {
+      "name": "Reddit (old)",
+      "url": "https://old.reddit.com",
+      "complexity": "low",
+      "success": true,
+      "htmlSize": 269594,
+      "scriptsFound": 11,
+      "scriptsExecuted": 2,
+      "scriptsFailed": 9,
+      "propertiesAccessed": [
+        "window.TYPED_ARRAY_SUPPORT",
+        "window.Uint8Array",
+        "window.localStorage",
+        "Storage.noDeprecation",
+        "window.dashjs",
+        "window.dashjs.MediaPlayer [SET]",
+        "window.dashjs.FactoryMaker [SET]",
+        "window.dashjs.Version [SET]",
+        "location.host"
+      ],
+      "errors": [
+        "https://www.redditstatic.com/reddit-init.en.dv4Vz1: invalid number literal",
+        "https://www.redditstatic.com/videoplayer.XCrwE8Bi5: 'dashjs' is not defined",
+        "inline #2: 'r' is not defined",
+        "inline #3: unexpected token in expression: '<'",
+        "inline #4: unexpected token in expression: '<'",
+        "inline #7: unexpected token in expression: '<'",
+        "https://www.redditstatic.com/reddit.en.MzvIy7pCzHU: 'r' is not defined",
+        "https://www.redditstatic.com/spoiler-text.vsLMfxcs: 'r' is not defined",
+        "https://www.redditstatic.com/onetrust.6tPW2jUogoc.: cannot read property 'use_onetrust' of undefined"
+      ],
+      "executionTime": 1905
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Main_Page",
+      "complexity": "low",
+      "success": true,
+      "htmlSize": 229136,
+      "scriptsFound": 5,
+      "scriptsExecuted": 1,
+      "scriptsFailed": 4,
+      "propertiesAccessed": [
+        "document.cookie",
+        "document.documentElement",
+        "document.documentElement.className [SET]",
+        "window.RLQ",
+        "window.RLQ.push",
+        "window.performance"
+      ],
+      "errors": [
+        "inline #1: not a function",
+        "https://en.wikipedia.org/w/load.php?lang=en&module: 'performance' is not defined",
+        "inline #3: not a function",
+        "inline #4: expecting ';'"
+      ],
+      "executionTime": 631
+    },
+    {
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "complexity": "medium",
+      "success": true,
+      "htmlSize": 518116,
+      "scriptsFound": 55,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 55,
+      "propertiesAccessed": [],
+      "errors": [
+        "inline #0: expecting ';'",
+        "https://github.githubassets.com/assets/high-contra: 'performance' is not defined",
+        "https://github.githubassets.com/assets/wp-runtime-: 'performance' is not defined",
+        "https://github.githubassets.com/assets/28839-c0b8e: 'performance' is not defined",
+        "https://github.githubassets.com/assets/85924-d72bd: 'performance' is not defined",
+        "https://github.githubassets.com/assets/34646-b8591: 'performance' is not defined",
+        "https://github.githubassets.com/assets/environment: 'performance' is not defined",
+        "https://github.githubassets.com/assets/runtime-hel: 'performance' is not defined",
+        "https://github.githubassets.com/assets/2966-7fae19: 'performance' is not defined",
+        "https://github.githubassets.com/assets/41013-98ec6: 'performance' is not defined",
+        "https://github.githubassets.com/assets/96232-9ad45: 'performance' is not defined",
+        "https://github.githubassets.com/assets/51210-4f6b6: 'performance' is not defined",
+        "https://github.githubassets.com/assets/77313-833d8: 'performance' is not defined",
+        "https://github.githubassets.com/assets/95150-62e60: 'performance' is not defined",
+        "https://github.githubassets.com/assets/46740-6ff37: 'performance' is not defined",
+        "https://github.githubassets.com/assets/74071-fa61c: 'performance' is not defined",
+        "https://github.githubassets.com/assets/github-elem: 'performance' is not defined",
+        "https://github.githubassets.com/assets/element-reg: 'performance' is not defined",
+        "https://github.githubassets.com/assets/react-core-: 'performance' is not defined",
+        "https://github.githubassets.com/assets/react-lib-3: 'performance' is not defined",
+        "https://github.githubassets.com/assets/7053-059cc8: 'performance' is not defined",
+        "https://github.githubassets.com/assets/79039-13dc5: 'performance' is not defined",
+        "https://github.githubassets.com/assets/61110-91a6e: 'performance' is not defined",
+        "https://github.githubassets.com/assets/2887-7374f8: 'performance' is not defined",
+        "https://github.githubassets.com/assets/26533-3b730: 'performance' is not defined",
+        "https://github.githubassets.com/assets/18728-82d66: 'performance' is not defined",
+        "https://github.githubassets.com/assets/12734-bef5d: 'performance' is not defined",
+        "https://github.githubassets.com/assets/89155-cd299: 'performance' is not defined",
+        "https://github.githubassets.com/assets/28305-5ae8a: 'performance' is not defined",
+        "https://github.githubassets.com/assets/63225-70957: 'performance' is not defined",
+        "https://github.githubassets.com/assets/60481-2dd02: 'performance' is not defined",
+        "https://github.githubassets.com/assets/46287-40d49: 'performance' is not defined",
+        "https://github.githubassets.com/assets/2498-97555f: 'performance' is not defined",
+        "https://github.githubassets.com/assets/57073-82b72: 'performance' is not defined",
+        "https://github.githubassets.com/assets/15625-1fe13: 'performance' is not defined",
+        "https://github.githubassets.com/assets/48527-f916f: 'performance' is not defined",
+        "https://github.githubassets.com/assets/28703-b65c1: 'performance' is not defined",
+        "https://github.githubassets.com/assets/99328-91354: 'performance' is not defined",
+        "https://github.githubassets.com/assets/9211-67d72f: 'performance' is not defined",
+        "https://github.githubassets.com/assets/91184-96267: 'performance' is not defined",
+        "https://github.githubassets.com/assets/97232-f296c: 'performance' is not defined",
+        "https://github.githubassets.com/assets/87774-a4916: 'performance' is not defined",
+        "https://github.githubassets.com/assets/27493-4c940: 'performance' is not defined",
+        "https://github.githubassets.com/assets/56889-a22c1: 'performance' is not defined",
+        "https://github.githubassets.com/assets/2013-ba4f72: 'performance' is not defined",
+        "https://github.githubassets.com/assets/81564-b3976: 'performance' is not defined",
+        "https://github.githubassets.com/assets/behaviors-2: 'performance' is not defined",
+        "https://github.githubassets.com/assets/38302-3e712: 'performance' is not defined",
+        "https://github.githubassets.com/assets/notificatio: 'performance' is not defined",
+        "inline #49: expecting ';'",
+        "https://github.githubassets.com/assets/46752-06df1: 'performance' is not defined",
+        "https://github.githubassets.com/assets/93308-59bc7: 'performance' is not defined",
+        "https://github.githubassets.com/assets/sessions-a6: 'performance' is not defined",
+        "inline #53: expecting ';'",
+        "inline #54: expecting ';'"
+      ],
+      "executionTime": 2543
+    },
+    {
+      "name": "Hacker News Comments",
+      "url": "https://news.ycombinator.com/item?id=1",
+      "complexity": "low",
+      "success": true,
+      "htmlSize": 6533,
+      "scriptsFound": 1,
+      "scriptsExecuted": 1,
+      "scriptsFailed": 0,
+      "propertiesAccessed": [
+        "document.getElementsByClassName",
+        "document.getElementsByClassName(rank)",
+        "HTMLCollection[0]",
+        "document.addEventListener",
+        "document.addEventListener(click)"
+      ],
+      "errors": [],
+      "executionTime": 146
+    }
+  ]
+}

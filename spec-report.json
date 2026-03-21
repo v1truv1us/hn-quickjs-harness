@@ -1,0 +1,323 @@
+{
+  "summary": {
+    "sitesTested": 8,
+    "sitesSuccessful": 8,
+    "totalScripts": 20,
+    "scriptsExecuted": 6,
+    "totalUniqueProperties": 22
+  },
+  "properties": [
+    {
+      "property": "document.addEventListener",
+      "frequency": 2,
+      "sites": [
+        "Hacker News",
+        "Paul Graham"
+      ]
+    },
+    {
+      "property": "document.getElementsByClassName",
+      "frequency": 1,
+      "sites": [
+        "Hacker News"
+      ]
+    },
+    {
+      "property": "document.getElementsByClassName(rank)",
+      "frequency": 1,
+      "sites": [
+        "Hacker News"
+      ]
+    },
+    {
+      "property": "HTMLCollection.0",
+      "frequency": 1,
+      "sites": [
+        "Hacker News"
+      ]
+    },
+    {
+      "property": "document.addEventListener(click)",
+      "frequency": 1,
+      "sites": [
+        "Hacker News"
+      ]
+    },
+    {
+      "property": "window.TYPED_ARRAY_SUPPORT",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.Uint8Array",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.localStorage",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "Storage.noDeprecation",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.dashjs",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.dashjs.MediaPlayer [SET]",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.dashjs.FactoryMaker [SET]",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "window.dashjs.Version [SET]",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "location.host",
+      "frequency": 1,
+      "sites": [
+        "Old Reddit"
+      ]
+    },
+    {
+      "property": "document.cookie",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.documentElement",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.documentElement.className [SET]",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.RLQ",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.RLQ.push",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.documentElement.className",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "window.NORLQ",
+      "frequency": 1,
+      "sites": [
+        "Wikipedia"
+      ]
+    },
+    {
+      "property": "document.addEventListener(readystatechange)",
+      "frequency": 1,
+      "sites": [
+        "Paul Graham"
+      ]
+    }
+  ],
+  "highPriority": [
+    "document.addEventListener"
+  ],
+  "sites": [
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 34397,
+      "scriptsFound": 1,
+      "scriptsExecuted": 1,
+      "scriptsFailed": 0,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [
+        "document.getElementsByClassName",
+        "document.getElementsByClassName(rank)",
+        "HTMLCollection.0",
+        "document.addEventListener",
+        "document.addEventListener(click)"
+      ],
+      "errors": [],
+      "executionTime": 577
+    },
+    {
+      "name": "Lobsters",
+      "url": "https://lobste.rs",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 58932,
+      "scriptsFound": 1,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 1,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [],
+      "errors": [
+        "expecting ';'"
+      ],
+      "executionTime": 444
+    },
+    {
+      "name": "Hacker News Item",
+      "url": "https://news.ycombinator.com/item?id=42068545",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 6,
+      "scriptsFound": 0,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 0,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [],
+      "errors": [],
+      "executionTime": 52
+    },
+    {
+      "name": "Old Reddit",
+      "url": "https://old.reddit.com/r/programming",
+      "complexity": "low",
+      "success": true,
+      "htmlSize": 125704,
+      "scriptsFound": 11,
+      "scriptsExecuted": 2,
+      "scriptsFailed": 9,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [
+        "window.TYPED_ARRAY_SUPPORT",
+        "window.Uint8Array",
+        "window.localStorage",
+        "Storage.noDeprecation",
+        "window.dashjs",
+        "window.dashjs.MediaPlayer [SET]",
+        "window.dashjs.FactoryMaker [SET]",
+        "window.dashjs.Version [SET]",
+        "location.host"
+      ],
+      "errors": [
+        "invalid number literal",
+        "'dashjs' is not defined",
+        "'r' is not defined",
+        "unexpected token in expression: '<'",
+        "unexpected token in expression: '<'"
+      ],
+      "executionTime": 1441
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/JavaScript",
+      "complexity": "low",
+      "success": true,
+      "htmlSize": 455831,
+      "scriptsFound": 5,
+      "scriptsExecuted": 1,
+      "scriptsFailed": 4,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [
+        "document.cookie",
+        "document.documentElement",
+        "document.documentElement.className [SET]",
+        "window.RLQ",
+        "window.RLQ.push",
+        "document.documentElement.className",
+        "window.NORLQ"
+      ],
+      "errors": [
+        "not a function",
+        "'NORLQ' is not defined",
+        "not a function",
+        "expecting ';'"
+      ],
+      "executionTime": 1138
+    },
+    {
+      "name": "SourceHut",
+      "url": "https://sr.ht",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 7519,
+      "scriptsFound": 0,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 0,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [],
+      "errors": [],
+      "executionTime": 864
+    },
+    {
+      "name": "Drew DeVault",
+      "url": "https://drewdevault.com",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 85784,
+      "scriptsFound": 0,
+      "scriptsExecuted": 0,
+      "scriptsFailed": 0,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [],
+      "errors": [],
+      "executionTime": 759
+    },
+    {
+      "name": "Paul Graham",
+      "url": "http://www.paulgraham.com",
+      "complexity": "minimal",
+      "success": true,
+      "htmlSize": 5383,
+      "scriptsFound": 2,
+      "scriptsExecuted": 2,
+      "scriptsFailed": 0,
+      "scriptsSkipped": 0,
+      "propertiesAccessed": [
+        "document.addEventListener",
+        "document.addEventListener(readystatechange)"
+      ],
+      "errors": [],
+      "executionTime": 716
+    }
+  ]
+}
